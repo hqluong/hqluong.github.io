@@ -65,7 +65,7 @@ img { display: block; max-width: 100%; }
 .hero-inner {
   min-height: 720px;
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr);
   align-items: center;
   gap: 80px;
   padding-block: 82px;
@@ -111,13 +111,7 @@ img { display: block; max-width: 100%; }
 .availability { display: flex; align-items: center; gap: 10px; margin-top: 42px; color: #aebeba; font-size: 13px; }
 .status-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 5px rgb(199 243 107 / 12%); }
 
-.portrait {
-  position: relative;
-  width: min(100%, 360px);
-  margin: 0;
-  padding: 0 0 32px 32px;
-  justify-self: end;
-}
+.portrait { position: relative; margin: 0; padding: 0 0 32px 32px; }
 .portrait::before {
   content: "";
   position: absolute;
@@ -127,7 +121,7 @@ img { display: block; max-width: 100%; }
   opacity: 0.45;
 }
 .portrait-frame { position: relative; z-index: 1; background: var(--blue); overflow: hidden; }
-.portrait img { width: 100%; aspect-ratio: 691 / 629; object-fit: cover; object-position: center; image-rendering: auto; }
+.portrait img { width: 100%; aspect-ratio: 1.1 / 1; object-fit: cover; object-position: center 35%; }
 .portrait figcaption {
   position: absolute;
   z-index: 2;
@@ -248,7 +242,7 @@ a:focus-visible { outline: 3px solid var(--lime); outline-offset: 4px; }
   .header-cta { display: none; }
   .site-header nav { justify-content: flex-end; }
   .hero-inner { grid-template-columns: 1fr; gap: 62px; }
-  .portrait { width: min(100%, 360px); margin-inline: auto; justify-self: center; }
+  .portrait { width: min(100%, 540px); margin-inline: auto; }
   .metrics { grid-template-columns: repeat(3, 1fr); }
   .positioning,
   .credentials { grid-template-columns: 120px minmax(0, 1fr); }
