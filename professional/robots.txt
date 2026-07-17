@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /professional/
+
+Sitemap: https://hqluong.github.io/professional/sitemap.xml
