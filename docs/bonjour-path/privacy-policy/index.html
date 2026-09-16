@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for the Bonjour Path iPhone app.">
+  <meta name="description" content="Bonjour Path privacy: local learning data, optional Firebase Analytics, and controls for app-usage sharing.">
   <title>Privacy Policy — Bonjour Path</title>
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../styles.css">
@@ -25,79 +25,75 @@
 
   <main id="main-content">
     <header class="hero">
-      <p class="eyebrow">Bonjour Path · Version 1.0</p>
+      <p class="eyebrow">Bonjour Path · Versions 1.0 and 1.1</p>
       <h1>Privacy Policy</h1>
-      <p class="lede">Bonjour Path is designed to keep learning personal. It requires no account and stores learning progress on your iPhone.</p>
+      <p class="lede">Your learning progress stays on your iPhone. Optional app-usage sharing starts off and can be changed at any time.</p>
       <div class="meta-row" aria-label="Policy details">
-        <span class="pill">Effective September 4, 2026</span>
+        <span class="pill">Effective September 16, 2026</span>
         <span class="pill">Operator: Hung Luong</span>
       </div>
     </header>
 
     <article class="content">
-      <section class="summary-card" aria-labelledby="summary-heading">
-        <h2 id="summary-heading">At a glance</h2>
-        <p>Bonjour Path does not require an account, contain advertising, track you across apps or websites, or use a third-party analytics SDK. The app does not send personal information or learning activity to the app operator.</p>
+      <p><strong>About versions:</strong> Version 1.0 does not include Firebase Analytics. The optional analytics described below applies to version 1.1, which introduces the <strong>Share app usage</strong> control, and starts only if you agree.</p>
+      <section class="summary-card" aria-labelledby="your-choices-heading">
+        <h2 id="your-choices-heading">Your choices</h2>
+        <p>Bonjour Path does not require an account and has no advertising. Learning progress is stored on your device. In versions with the <strong>Share app usage</strong> control, optional usage analytics helps the developer understand which learning features are useful. Sharing is off until you agree. Every learning feature works with sharing turned off.</p>
+        <p>You can change your choice at <strong>Progress → Privacy</strong>. Closing the initial choice without agreeing leaves sharing off.</p>
       </section>
 
-      <section aria-labelledby="device-data-heading">
-        <h2 id="device-data-heading">Information stored on your device</h2>
-        <p>Bonjour Path stores the information needed to provide its learning features locally on your iPhone. This can include course progress, answers and attempts, review schedules, checkpoints, writing drafts, saved phrases, app preferences, reminder settings, and widget preferences.</p>
-        <p>This information remains in the app’s local storage unless you choose to export it.</p>
+      <section aria-labelledby="learning-information-stored-on-your-device-heading">
+        <h2 id="learning-information-stored-on-your-device-heading">Learning information stored on your device</h2>
+        <p>The app stores course progress, answers and attempts, review schedules, checkpoints, writing drafts, saved phrases, app preferences, reminder settings, and widget preferences locally. Recordings, transcripts, written answers, saved phrases, backup files and backup passwords are never included in the app's analytics events.</p>
       </section>
 
-      <section aria-labelledby="microphone-heading">
-        <h2 id="microphone-heading">Microphone and recordings</h2>
-        <p>Microphone access is optional. Bonjour Path requests permission only when you choose to record a speaking-practice response. Recordings are created as temporary local files so you can replay or transcribe them. The app removes old temporary recordings and does not upload recordings to the app operator.</p>
+      <section aria-labelledby="optional-google-firebase-analytics-heading">
+        <h2 id="optional-google-firebase-analytics-heading">Optional Google Firebase Analytics</h2>
+        <p>If you agree to share app usage, Bonjour Path uses Google Analytics for Firebase to send:</p>
+        <ul>
+          <li>Visits to Today, Path, Practice, Words and Progress.</li>
+          <li>Course lesson completion, with the learning level.</li>
+          <li>Completed course practice checks, with the learning level and skill category. Answers, scores and correctness are not sent in these custom events.</li>
+          <li>Standard analytics information such as app launches, sessions, engagement, app version, operating system, device model, language, an app-instance identifier and approximate location derived from network information.</li>
+        </ul>
+        <p>These reports help the developer understand feature use and improve the app. An app-instance identifier distinguishes one installation from another; this is pseudonymous information, not a promise of anonymity. The app does not set an account/user ID, collect Apple's advertising or vendor identifiers, use advertising personalization, or track you across other companies' apps or websites. The vocabulary widget does not include Firebase Analytics.</p>
+        <p>Google processes analytics as the service provider and may process information outside your country. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+        <p>Turning sharing off stops future analytics collection and clears analytics stored locally, including resetting its app-instance identifier. It does not remove reports already sent to Google or change your learning progress. Previously sent information is subject to the Google Analytics property's retention settings. Use the privacy contact below for questions or deletion requests.</p>
       </section>
 
-      <section aria-labelledby="speech-heading">
-        <h2 id="speech-heading">Speech recognition</h2>
-        <p>Speech recognition is optional. When you ask what the device heard, Bonjour Path requires Apple’s on-device Canadian French speech recognition. If on-device recognition is unavailable, the app does not send the recording for remote transcription.</p>
-        <p>The resulting transcript is practice assistance—not an accent score, official assessment, or certification. Apple controls the operating-system permissions and speech-recognition technology; Apple’s handling of information is governed by <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>.</p>
+      <section aria-labelledby="microphone-recordings-and-speech-recognition-heading">
+        <h2 id="microphone-recordings-and-speech-recognition-heading">Microphone, recordings and speech recognition</h2>
+        <p>Microphone access is optional and requested only when you choose to record a speaking-practice response. Recordings are temporary local files for replay or transcription. Old temporary recordings are removed. The app does not upload recordings to the developer or Firebase.</p>
+        <p>Optional speech transcription requires Apple's on-device Canadian French recognition. If it is unavailable, the app does not send your recording for remote transcription. The transcript is practice assistance, not an accent score or official assessment. Apple manages system permissions and speech technology under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
       </section>
 
-      <section aria-labelledby="notifications-heading">
-        <h2 id="notifications-heading">Notifications</h2>
-        <p>If you enable learning reminders, Bonjour Path schedules local notifications through iOS. You can change notification permission and delivery in iPhone Settings. The app operator does not receive notification activity.</p>
+      <section aria-labelledby="reminders-and-backups-heading">
+        <h2 id="reminders-and-backups-heading">Reminders and backups</h2>
+        <p>Learning reminders are local iOS notifications. You control notification permission in iPhone Settings.</p>
+        <p>You may export a password-protected encrypted learning backup to a destination you choose. Encryption and restoration happen on your device. The developer does not receive the backup or password and cannot recover a forgotten password. The destination you select has its own privacy terms. Analytics consent is stored separately and is not restored from learning backups.</p>
       </section>
 
-      <section aria-labelledby="backups-heading">
-        <h2 id="backups-heading">Encrypted learning backups</h2>
-        <p>You may choose to export a password-protected encrypted backup of local learning data. The backup is encrypted on your device and is shared only through the destination you select. The app operator does not receive the backup or its password and cannot recover a forgotten password.</p>
-        <p>When you restore a compatible backup, Bonjour Path processes it locally on the device.</p>
+      <section aria-labelledby="retention-and-deletion-of-local-learning-data-heading">
+        <h2 id="retention-and-deletion-of-local-learning-data-heading">Retention and deletion of local learning data</h2>
+        <p>Learning data remains on the device until you reset it in <strong>Progress → Reset all learning data</strong> or delete the app. Resetting learning progress does not change the separate usage-sharing choice. Turn off sharing through <strong>Privacy &amp; usage sharing</strong> if you also want to stop analytics. Delete exported backups separately from the places you saved them.</p>
       </section>
 
-      <section aria-labelledby="sharing-heading">
-        <h2 id="sharing-heading">Collection, tracking, and sharing</h2>
-        <p>Bonjour Path does not collect data from the app, track users across apps or websites, sell personal information, or share learning activity with advertisers or data brokers. A user-initiated export through the iOS share sheet is controlled by you and by the selected destination’s own privacy terms.</p>
+      <section aria-labelledby="families-heading">
+        <h2 id="families-heading">Families</h2>
+        <p>The app works without usage sharing. Parents and guardians can keep sharing off and remove local learning data with the reset control or by deleting the app. Please contact the developer with any privacy concerns involving a child's use of Bonjour Path.</p>
       </section>
 
-      <section aria-labelledby="retention-heading">
-        <h2 id="retention-heading">Retention and deletion</h2>
-        <p>Local learning data remains on your iPhone until you reset it in Bonjour Path or delete the app. The Progress screen includes a <strong>Reset all learning data</strong> control. Exported backups must be deleted separately from each location where you saved them.</p>
-      </section>
-
-      <section aria-labelledby="children-heading">
-        <h2 id="children-heading">Children’s privacy</h2>
-        <p>Bonjour Path does not knowingly collect personal information from children or any other user. A parent or guardian can remove locally stored app data by using the reset control or deleting the app.</p>
-      </section>
-
-      <section aria-labelledby="changes-heading">
-        <h2 id="changes-heading">Changes to this policy</h2>
-        <p>This policy may be updated when the app’s features or information practices change. The current version and effective date will be posted on this page.</p>
-      </section>
-
-      <section class="contact-panel" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Privacy questions</h2>
-        <p>Contact Hung Luong at <a href="mailto:trample_pies_4l@icloud.com?subject=Bonjour%20Path%20Privacy">trample_pies_4l@icloud.com</a>.</p>
+      <section class="contact-panel" aria-labelledby="policy-changes-and-contact-heading">
+        <h2 id="policy-changes-and-contact-heading">Policy changes and contact</h2>
+        <p>This policy will be updated when information practices change. The current published policy is available at <a href="https://hqluong.github.io/bonjour-path/privacy-policy/">Bonjour Path Privacy Policy</a>.</p>
+        <p>For privacy questions, contact <a href="mailto:trample_pies_4l@icloud.com">trample_pies_4l@icloud.com</a>.</p>
       </section>
     </article>
   </main>
 
   <footer class="site-footer">
     <p><a href="../">Bonjour Path</a> · <a href="../support/">Support</a></p>
-    <p>Last updated September 4, 2026</p>
+    <p>Last updated September 16, 2026</p>
   </footer>
 </body>
 </html>
