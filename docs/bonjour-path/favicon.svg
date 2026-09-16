@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bonjour Path">
+  <defs>
+    <linearGradient id="g" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#144fa8"/>
+      <stop offset="1" stop-color="#6b4daa"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="17" fill="url(#g)"/>
+  <text x="32" y="39" fill="white" font-family="Georgia, serif" font-size="34" font-weight="700" text-anchor="middle">B</text>
+  <rect x="20" y="47" width="8" height="3" rx="1.5" fill="#144fa8"/>
+  <rect x="28" y="47" width="8" height="3" fill="white"/>
+  <rect x="36" y="47" width="8" height="3" rx="1.5" fill="#e03345"/>
+</svg>
