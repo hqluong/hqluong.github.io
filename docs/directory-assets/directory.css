@@ -36,16 +36,19 @@ h1 span { color: #697c61; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 21px; }
 .section-heading h2 { margin: 0; font-size: 16px; font-weight: 650; letter-spacing: -.3px; }
 .collection-count { color: var(--muted); font-size: 12px; }
-.app-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.app-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
 .app-card { display: flex; flex-direction: column; padding: 32px 32px 0; background: #fff; border: 1px solid #dde3df; border-radius: 22px; box-shadow: 0 4px 14px #28332703; }
 .french { --accent: #254e97; --tint: #eff4fb; }
 .motivation { --accent: #974014; --tint: #fff2e5; }
+.ielts { --accent: #146b80; --tint: #eaf6f4; }
 .card-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 26px; }
 .app-icon { width: 88px; height: 88px; border-radius: 21px; box-shadow: 0 3px 7px #23372b12; }
 .category { padding: 5px 11px; border-radius: 7px; background: var(--tint); color: var(--accent); font-size: 11px; font-weight: 650; }
 h3 { margin: 0 0 4px; font-size: 28px; line-height: 1.25; letter-spacing: -.9px; font-weight: 650; }
 .app-tagline { margin: 0 0 15px; font-size: 15px; color: #394942; }
 .app-description { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.8; }
+.app-notice { margin: 14px 0 0; padding-top: 12px; border-top: 1px solid #e8ece6; color: var(--muted); font-size: 12px; line-height: 1.65; }
+.release-note { color: var(--muted); font-size: 11px; }
 .features { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 21px 0 28px; }
 .features li { padding: 4px 10px; border: 1px solid #e1e7e0; border-radius: 6px; font-size: 11px; color: #56635b; }
 .card-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 20px; margin-top: auto; padding-bottom: 24px; }
@@ -65,6 +68,7 @@ h3 { margin: 0 0 4px; font-size: 28px; line-height: 1.25; letter-spacing: -.9px;
 .footer-line span:first-child { color: #34433a; font-weight: 600; }
 @media (max-width: 900px) {
   .shell { width: calc(100% - 64px); }
+  .app-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .app-card { padding: 26px 24px 0; }
   .card-actions { gap: 4px 12px; }
   .primary-link { gap: 18px; }
