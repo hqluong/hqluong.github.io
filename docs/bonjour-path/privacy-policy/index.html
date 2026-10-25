@@ -29,7 +29,7 @@
       <h1>Privacy Policy</h1>
       <p class="lede">Your learning progress stays on your iPhone. Optional usage sharing and advertising have separate privacy controls.</p>
       <div class="meta-row" aria-label="Policy details">
-        <span class="pill">Updated October 23, 2026</span>
+        <span class="pill">Updated October 25, 2026</span>
         <span class="pill">Operator: Hung Luong</span>
       </div>
     </header>
@@ -39,7 +39,7 @@
       <section class="summary-card" aria-labelledby="your-choices-heading">
         <h2 id="your-choices-heading">Your choices</h2>
         <p>Bonjour Path does not require an account. Versions 1.0 and 1.1 have no advertising. Version 1.2 introduces Google AdMob advertisements to help support the app. Learning progress is stored on your device. In versions with the <strong>Share app usage</strong> control, optional usage analytics helps the developer understand which learning features are useful. Sharing is off until you agree. Every learning feature works with sharing turned off.</p>
-        <p>You can change your choice at <strong>Progress → Privacy</strong>. Closing the initial choice without agreeing leaves sharing off.</p>
+        <p>You can change your choice at <strong>Progress → Privacy</strong>. In version 1.2 build 6, Apple’s standard tracking-permission dialog replaces the custom startup usage-sharing screen. Declining Apple’s permission prevents access to the advertising identifier and tracking across other companies’ apps and websites. Non-personalized ads may still appear, subject to regional consent choices. Ads wait until the native request has finished, and optional usage sharing remains off without Apple’s permission. Every learning feature remains available.</p>
       </section>
 
       <section aria-labelledby="learning-information-stored-on-your-device-heading">
@@ -49,7 +49,7 @@
 
       <section aria-labelledby="optional-google-firebase-analytics-heading">
         <h2 id="optional-google-firebase-analytics-heading">Optional Google Firebase Analytics</h2>
-        <p>If you agree to share app usage, Bonjour Path uses Google Analytics for Firebase to send:</p>
+        <p>If you separately turn on <strong>Share app usage</strong>, Bonjour Path uses Google Analytics for Firebase to send the information below. In version 1.2 build 6, this also requires Apple’s tracking permission; allowing Apple’s permission alone does not enable optional usage sharing. A previously saved usage-sharing opt-in cannot bypass Apple’s permission:</p>
         <ul>
           <li>Visits to Today, Path, Practice, Words and Progress.</li>
           <li>Course lesson completion, with the learning level.</li>
@@ -65,9 +65,9 @@
         <h2 id="advertising-heading">Google AdMob advertising in version 1.2</h2>
         <p>Version 1.2 includes banner ads on Today and Progress and occasional full-screen ads when you return to those screens after about 90 seconds of active use. Interstitials are spaced at least 30 minutes apart and limited to two per calendar day. The app does not run an advertising timer that interrupts an exercise.</p>
         <p>Google Mobile Ads and its User Messaging Platform may process your IP address and approximate location, app- or device-related identifiers, ad impressions and interactions, app/device information, crash logs and performance or other diagnostic information. This information supports ad delivery, measurement, fraud prevention and service operation. Non-personalized advertising can still involve data collection; it does not mean that no information is processed.</p>
-        <p>This version requests non-personalized ads, disables the Google publisher first-party identifier and does not request Apple's App Tracking Transparency permission. The app does not send your recordings, transcripts, lesson answers, writing drafts or saved phrases to AdMob.</p>
-        <p>Google's User Messaging Platform checks whether a privacy message is required before the advertising SDK starts or requests ads. Where required, you can review or change the available choices at <strong>Progress → Privacy → Ad privacy choices</strong>. If consent information cannot be updated, the app does not start a new ad request. Learning remains available if an ad cannot be shown.</p>
-        <p>Advertising is separate from <strong>Share app usage</strong>. Turning off that switch stops optional Firebase Analytics; it does not remove advertisements or change your advertising choices. Google may process advertising information outside your country and retain it under its service policies. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">How Google uses advertising information</a>.</p>
+        <p>Starting with version 1.2 build 6, Bonjour Path requests permission through Apple’s standard App Tracking Transparency dialog after onboarding and waits for that request to finish before ad setup. The app requests non-personalized ads for both choices, disables Google’s publisher first-party identifier and disables ads personalization. If permission is declined or restricted, the advertising identifier is unavailable and non-personalized ads can still be requested through AdMob’s supported flow without that identifier, subject to regional consent. The app does not supply replacement cross-company tracking identifiers, contact lists or fingerprint data to AdMob. If permission is allowed, the advertising partner may use the advertising identifier for advertising measurement across apps. Non-personalized requests alone are not a guarantee of no data collection or no tracking; Apple’s system choice and Google’s privacy signals also apply. The app does not send your recordings, transcripts, lesson answers, writing drafts or saved phrases to AdMob.</p>
+        <p>After Apple’s permission request has finished, Google’s User Messaging Platform separately checks whether regional advertising choices are required before the advertising SDK starts or requests ads. Ads load only when Google’s consent checks permit requests; they stay off if consent setup fails or requests are not permitted. Google may apply limited ad serving based on those privacy signals. These regional forms do not replace or override Apple’s permission. Where required, you can review or change the available choices at <strong>Progress → Privacy → Ad privacy choices</strong>. If consent information cannot be updated, the app does not start a new ad request. Learning remains available if an ad cannot be shown.</p>
+        <p>Apple’s tracking permission is managed in iOS Settings; <strong>Progress → Privacy → Open iOS Settings</strong> opens the app’s settings. Returning to Bonjour Path refreshes the permission. A changed tracking choice discards banners/preloaded ads and rechecks regional consent before fresh requests; refusal does not create an ad-free mode. Optional analytics collection stops if Apple’s permission is no longer authorized. Advertising is separate from <strong>Share app usage</strong>. Turning off that switch stops optional Firebase Analytics; it does not remove advertisements or change your advertising choices. Google may process advertising information outside your country and retain it under its service policies. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">How Google uses advertising information</a>.</p>
       </section>
 
       <section aria-labelledby="microphone-recordings-and-speech-recognition-heading">
@@ -102,7 +102,7 @@
 
   <footer class="site-footer">
     <p><a href="../">Bonjour Path</a> · <a href="../support/">Support</a></p>
-    <p>Last updated October 23, 2026</p>
+    <p>Last updated October 25, 2026</p>
   </footer>
 </body>
 </html>
