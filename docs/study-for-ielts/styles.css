@@ -42,6 +42,9 @@ p:last-child { margin-bottom: 0; }
 .lede { margin-top: 20px; color: var(--muted); font-size: 1.12rem; max-width: 62ch; }
 .meta-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 23px; }
 .pill { border: 1px solid var(--border); background: var(--canvas); border-radius: 100px; padding: 6px 12px; font-size: .8rem; font-weight: 650; }
+.hero-actions { margin-top: 26px; }
+.download-link { display: inline-flex; align-items: center; justify-content: center; gap: 14px; min-height: 48px; padding: 12px 20px; border-radius: 10px; background: var(--accent); color: var(--surface); font-size: .95rem; font-weight: 750; text-decoration: none; }
+.download-link:hover { background: var(--accent-dark); color: var(--surface); }
 .status { margin: 22px 0 0; color: var(--muted); font-size: .91rem; }
 .notice { margin: 22px 0 32px; padding: 22px 24px; background: var(--notice); border: 1px solid var(--notice-border); border-left: 5px solid var(--notice-border); border-radius: 13px; font-size: .92rem; }
 .notice h2 { font-size: 1.05rem; color: var(--ink); margin-bottom: 12px; }
